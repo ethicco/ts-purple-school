@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node ./dist/src/index.js"
   },
   "keywords": [],
-  "type": "module",
   "devDependencies": {
     "@types/node": "^26.6.6",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "inquirer": "^14.3.0",
+    "reflect-metadata": "^0.2.2"
   }
 }
